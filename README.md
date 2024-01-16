@@ -1,7 +1,7 @@
 # erpnext-leistungszeitraum-in-subscriptions
-Leistungszeitraum einer Subscription in Rechnung angeben
+Leistungszeitraum einer Subscription in Rechnung angeben - Print subscription's "performance period" in Sales Invoice (needed in Germany)
 
-## 1. Add field "custom_leistungszeitraum" to Sales Invoice and print that in a sensible place
+## 1. Prerequisite: Add field "custom_leistungszeitraum" to Sales Invoice and print that in a sensible place
 ## 2. Create server script for Sales Invoice with DocType Event "After Safe":
 
 ```
